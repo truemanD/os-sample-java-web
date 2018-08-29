@@ -10,4 +10,10 @@ public class HelloController {
     public String index() {
         return "Hello World!";
     }
+
+    @RequestMapping("/auth")
+    public String auth() {
+        return "Enter your secrets!";
+    }
+
 }
